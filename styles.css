@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0 !important;
+}
+
+.header {
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p > a {
+    color: #999;
+}
+
+@media (min-width: 550px) and (max-width: 1400px) {
+    body {
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-fluid {
+        width: 80vw;
+    }
+}
+
